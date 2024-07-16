@@ -198,3 +198,8 @@ a:hover {
 .repo-links:hover {
   color: #cf04cf;
 }
+@media only screen and (max-width:414px){
+  .body{
+    visibility: visible;
+  }
+}

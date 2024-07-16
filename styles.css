@@ -198,8 +198,35 @@ a:hover {
 .repo-links:hover {
   color: #cf04cf;
 }
-@media only screen and (max-width:414px){
-  .body{
-    visibility: visible;
+@media only screen and (max-width: 400px) {
+  .body {
+    margin: 0;
+  }
+  .mountain {
+    width: 400px;
+  }
+  .top-cloud {
+    right: 250px;
+  }
+  .bottom-cloud {
+    left: 250px;
+  }
+  .guess {
+    margin: auto;
+    height: 150px;
+    width: 300px;
+  }
+  .c {
+    float: none;
+  }
+  .tic {
+    margin: auto;
+    height: 100px;
+    width: 275px;
+  }
+  .dice {
+    margin: auto;
+    height: 150px;
+    width: 300px;
   }
 }
